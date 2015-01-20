@@ -1,0 +1,258 @@
+body
+{
+background-image: url("hyruleback.png");
+background-size: 100%;
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+font-family:forte;
+}
+
+/*Début entête*/
+
+.entete h2
+{
+font-size:17px;
+padding-left: 200px;
+margin-top: -50px
+}
+
+.entete table
+{
+width:100%;
+border:2px solid black;
+border-radius:5px;
+background-image: url("parchemin.jpg");
+}
+
+.entete td
+{
+font-size:20px;
+font-family:Forte;
+width:25%;
+text-align:left;
+padding-top:10px;
+margin-left: px
+}
+
+.entete th
+{
+text-align:right;
+}
+
+.entete .titre
+{
+border: 2px solid black;
+border-radius: 5px;
+font-size:40px;
+font-family:Forte;
+background-image: url("parchemin.jpg");
+margin-bottom: 2px;
+padding-left:50px
+}
+
+.entete .titre img
+{
+height:125px;
+float:left;
+}
+
+.entete img
+{
+float: left;
+height: 150px;
+}
+
+.entete a
+{
+color:black;
+text-decoration: none
+}
+
+.entete td img
+{
+height:35px;
+float:left;
+margin-top: -22px
+}
+
+#link
+{
+padding-left: 5px
+}
+
+#link:hover
+{
+	color:grey;
+}
+
+#logo
+{
+height:100px;
+float:right;
+margin-top:-3.5em;
+padding-right:1em;
+}
+
+#bourse
+{
+	margin-top: 10px;
+}
+
+#imgonglet
+{
+	padding-top:14px;
+}
+
+/*Fin entête*/
+
+
+/*Tableau produits*/
+
+.now,.best,.conso
+{
+	border: 1px solid black;
+	margin-top: 1em;
+	padding-right: 0.8em;
+	padding-left: 0.8em;
+	padding-bottom:1em;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.now
+{
+	float:left;
+}
+
+.best
+{
+	float:right;
+	padding-bottom:1em;
+	
+}
+
+.conso
+{
+	float:left;
+	margin-top: 2em;
+}
+
+.produit p
+{
+	padding-top:-30em;
+}
+
+.produit
+{
+	font-size:13pt;
+	border-top-width:1px;
+	border-top-style: solid;
+	width:35em;
+	padding-bottom: 0.8em;
+	padding-top: 0.5em;
+	margin-top:-5em;
+	margin-left: 3em;
+}
+
+#first
+{
+	font-size:13pt;
+	border-top-width:1px;
+	width:35em;
+	padding-bottom: 0.8em;
+	padding-top: 0.5em;
+	margin-top:-5em;
+	margin-left: 3em;}
+
+.titretab
+{
+	border: 1px solid black;
+	background-image: url("parchemin.jpg");
+	margin-left:90em;
+}
+
+.name
+{
+	font-size:16pt
+}
+
+.item
+{
+	width:5em;
+	height:5em;
+	float:left;
+	padding-right: 1.5em;
+}
+
+.prix
+{
+	text-align:right;
+	font-size:16pt;
+	margin-right: 2.5em;
+}
+
+.desc
+{
+	float:left;
+	margin-top:-5px;
+}
+
+
+.rubis
+{
+	height:35px;
+	float:right;
+	padding-left:1em;
+	margin-right: 1em;
+	margin-top: -3.15em;
+}
+
+.quantite
+{
+	margin-top:-0.5em;
+}
+
+.panier
+{
+	margin-left: 3em;
+}
+
+#zelda
+{
+	float:right;
+	margin-right: 8em;
+}
+
+#zelda img
+{
+	height:120%;
+	width:120%;
+}
+
+footer table
+{
+	float: left;
+	padding-top: 5px;
+}
+
+.boutons
+{
+	float:right;
+	width:50%;
+}
+
+.boutons tr
+{
+	text-align: center
+}
+
+.probleme
+{
+	float:right;
+	width: 50%;
+}
+
+#bouton, #text
+{
+	text-align:center
+}

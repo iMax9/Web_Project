@@ -1,0 +1,211 @@
+body
+{
+background-image: url("hyruleback.png");
+background-size: 100%;
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+font-family:forte;
+}
+
+/*Début entête*/
+
+.entete h2
+{
+font-size:17px;
+padding-left: 200px;
+margin-top: -50px
+}
+
+.entete table
+{
+width:100%;
+border:2px solid black;
+border-radius:5px;
+background-image: url("parchemin.jpg");
+}
+
+.entete td
+{
+font-size:20px;
+font-family:Forte;
+width:25%;
+text-align:left;
+padding-top:10px;
+margin-left: px
+}
+
+.entete th
+{
+text-align:right;
+}
+
+.entete .titre
+{
+border: 2px solid black;
+border-radius: 5px;
+font-size:40px;
+font-family:Forte;
+background-image: url("parchemin.jpg");
+margin-bottom: 2px;
+padding-left:50px
+}
+
+.entete .titre img
+{
+height:125px;
+float:left;
+}
+
+.entete img
+{
+float: left;
+height: 150px;
+}
+
+.entete a
+{
+color:black;
+text-decoration: none
+}
+
+.entete td img
+{
+height:35px;
+float:left;
+margin-top: -22px
+}
+
+#link
+{
+padding-left: 5px
+}
+
+#link:hover
+{
+	color:grey;
+}
+
+#logo
+{
+height:100px;
+float:right;
+margin-top:-3.5em;
+padding-right:1em
+}
+
+#bourse
+{
+	margin-top: 10px;
+}
+
+#imgonglet
+{
+	padding-top:14px;
+}
+
+/*Fin entête*/
+
+/*Tableau produits*/
+
+.magic
+{
+	border: 1px solid black;
+	margin-top: 1em;
+	padding-right: 0.8em;
+	padding-left: 0.8em;
+	padding-bottom:1em;
+	background-color:rgba(255,255,255,0.5);
+	float:left;
+	font-family:Forte;
+	width: 100%;
+}
+
+.produit p
+{
+	padding-top:-30em;
+}
+
+.name
+{
+	font-size: 16pt
+}
+
+.produit
+{
+	font-size:16pt;
+	border-top-width:1px;
+	border-top-style: solid;
+	width:35em;
+	padding-bottom: 0.8em;
+	padding-top: 0.5em;
+	margin-top:-5em;
+	margin-left: 3em;
+}
+
+#first
+{
+	font-size:16pt;
+	border-top-width:1px;
+	width:35em;
+	padding-bottom: 0.8em;
+	padding-top: 0.5em;
+	margin-top:-5em;
+	margin-left: 3em;
+}
+
+.titretab
+{
+	border: 1px solid black;
+	background-image: url("parchemin.jpg");
+	margin-left:90em;
+}
+
+.item
+{
+	width:5em;
+	height:5em;
+	float:left;
+	padding-right: 1.5em;
+}
+
+.prix
+{
+	text-align:right;
+	font-size:20pt;
+	margin-right: 2.5em;
+	margin-top: 2em;
+}
+
+.desc
+{
+	float:left;
+	margin-top: -5px;
+	font-size: 13pt
+}
+
+
+.rubis
+{
+	height:35px;
+	float:right;
+	padding-left:1em;
+	margin-right: 1em;
+	margin-top: -3.15em;
+}
+
+.quantite
+{
+	margin-top:-2em;
+}
+
+.panier
+{
+	margin-left: 3em;
+}
+
+footer table
+{
+	float: left;
+	padding-top: 5px;
+}

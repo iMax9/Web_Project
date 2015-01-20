@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Trésor d'Hyrule - Valider la commande</title>
+	<link rel="stylesheet" type="text/css" href="validcom.css"/>
+  </head>
+	<body>
+
+	<!--Début entête-->
+		<section class="entete">
+		<section class="titre">
+			<a href="pageaccueil.html"><img src="bourse.png" id="bourse"><h1>Trésor d'Hyrule</h1></a><img src="logozelda.png" id="logo">
+			<h2>"Parce que vous n'êtes jamais assez préparés pour un donjon !"</h2>
+		</section>
+		<table>
+		<tr>
+		<td>	<a href="PageAccueil.html" id="link"><img src="triforce.png" id="imgonglet">Accueil</td>
+		<td>	<a href="produits.html" id="link"><img src="triforce.png" id="imgonglet">Nos Produits</td>
+		<td>	<a href="Contact.html" id="link"><img src="triforce.png" id="imgonglet">Contact</td>
+		<form>
+				<th><th><input placeholder="Rechercher..."><a href="recherche.html"> <input type="button" value="OK"></a></th></th>
+		</form>
+		</tr>
+		</table>
+		</section>
+	<!-- Fin entête-->
+		<section id="commande">
+			<table id="coord">
+				<tr><h3>Veuillez indiquer vos coordonnées afin de poursuivre votre commande :</h3></tr>
+				<section>
+					<tr><td>Nom :</td><td><input type="text" placeholder="Ex : Tingle"></td></tr>
+					<tr><td>Prénom :</td><td><input type="text" placeholder="Ex : Saria"></td></tr>
+					<tr><td>Zone :</td><td><select value="z">
+									<option></option>
+									<option>Celesbourg</option>
+									<option>Cocorico</option>
+									<option>Farore</option>
+									<option>Lanelle</option>
+									<option>Ranch Lon Lon</option>
+									<option>Toal</option>
+									<option>Village Kokiri</option>
+								</select></td></tr>
+					<tr><td>Adresse :</td><td><input type="text" placeholder="Ex : 34, 4ème maison"></td></tr>
+					<tr><td>Code Postal :</td><td><input type="text" placeholder="Ex : 87654"></td></tr>
+					<table>
+					<p id="livr"><input type="checkbox">Livraison en moins de 2 jours avec Coliss'hyrule</p>
+					</table>
+					<a href="Validation.html" class="bouton"><button>Valider</button></a>
+					<a href="Produits.html" class="bouton"><button>Annuler</button></a>
+				</section>
+			</table>
